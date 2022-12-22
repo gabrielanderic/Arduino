@@ -1,0 +1,10 @@
+fun setup() -> ficto {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+fun loop() -> ficto {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(200);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(200);
+}
